@@ -22,3 +22,11 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.img-grid {
+  display: grid;
+  justify-items: center;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: 100%;
+  grid-gap: 20px;
+}
