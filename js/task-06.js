@@ -1,7 +1,7 @@
 const valueInput = document.querySelector('#validation-input');
 const lengthInput = document.querySelector('input[data-length="6"]');
 
-const changeColorOfBorder = event => {
+const changeColorOfBorder = () => {
   if (valueInput.value.length === Number(lengthInput.dataset.length)) {
     valueInput.classList.add('valid');
     valueInput.classList.remove('invalid');
